@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Yahoo! Answers Archive</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 175px 175px 175px 175px 175px 175px;
+                grid-template-rows: 75px 75px 75px 75px 75px 75px 75px;
+                justify-content: space-evenly;
+                align-content: space-between;
+                height: 90%;
+            }
+            .holder {
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 3px;
+                line-height: 22px;
+                padding: 10px 8px;
+            }
+            .holder a {
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+            }
+            form {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+            input {
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 1px;
+                padding: 8px 10px;
+            }
+            input:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Yahoo! Answers</h1>
+        <hr />
+        <form action="/search">
+            <input type="text" placeholder="Search..." name="q" />
+        </form>
+        <div class="grid">
+            <div class="holder"><a href="/category?c=0">Arts & Humanities</a></div>
+            <div class="holder"><a href="/category?c=1">Beauty & Style</a></div>
+            <div class="holder"><a href="/category?c=2">Business & Finance</a></div>
+            <div class="holder"><a href="/category?c=3">Cars & Transportation</a></div>
+            <div class="holder"><a href="/category?c=4">Computers & Internet</a></div>
+            <div class="holder"><a href="/category?c=5">Consumer Electronics</a></div>
+            <div class="holder"><a href="/category?c=6">Dining Out</a></div>
+            <div class="holder"><a href="/category?c=7">Education & Reference</a></div>
+            <div class="holder"><a href="/category?c=8">Entertainment & Music</a></div>
+            <div class="holder"><a href="/category?c=9">Environment</a></div>
+            <div class="holder"><a href="/category?c=10">Family & Relationships</a></div>
+            <div class="holder"><a href="/category?c=11">Food & Drink</a></div>
+            <div class="holder"><a href="/category?c=12">Games & Recreation</a></div>
+            <div class="holder"><a href="/category?c=13">Health</a></div>
+            <div class="holder"><a href="/category?c=14">Home & Garden</a></div>
+            <div class="holder"><a href="/category?c=15">Local Businesses</a></div>
+            <div class="holder"><a href="/category?c=16">News & Events</a></div>
+            <div class="holder"><a href="/category?c=17">Pets</a></div>
+            <div class="holder"><a href="/category?c=18">Politics & Government</a></div>
+            <div class="holder"><a href="/category?c=19">Pregnancy & Parenting</a></div>
+            <div class="holder"><a href="/category?c=20">Science & Mathematics</a></div>
+            <div class="holder"><a href="/category?c=21">Social Science</a></div>
+            <div class="holder"><a href="/category?c=22">Society & Culture</a></div>
+            <div class="holder"><a href="/category?c=23">Sports</a></div>
+            <div class="holder"><a href="/category?c=24">Travel</a></div>
+            <div class="holder"><a href="/category?c=25">Yahoo Products</a></div>
+        </div>
+    </body>
+</html>
